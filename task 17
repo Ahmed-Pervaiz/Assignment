@@ -1,0 +1,6 @@
+binary = input("Enter Binary Number: ");
+if binary == 'x':
+    exit();
+else:
+    decimal = int(binary, 2);
+    print("Decimal Representation of",binary,"is",decimal)
